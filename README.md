@@ -5,7 +5,7 @@ Description:
 This program employs a Multinomial Naive Bayes Classifier algorithm to predict whether a news article is "Fake News" or not.
 
 After completing the Datacamp course, "Introduction to Natural Language Processing in Python", I was inspired to apply my newly acquired knowledge create this progam. The Datacamp course instructs how to build a Fake News classifier and tune the model for performance. After using this code for inspiration, I built my program to:
-1) Allow users to test indiviudal articles for themselves. The Datacamp course code only permitted a user to test model performance on a separate test set.
+1) Allow users to test indiviudal articles for themselves. The Datacamp code only permitted a user to test model performance on a separate test set composed of several articles.
 2) Have web scraping functionality, allowing a user to test an article by submitting a URL.
 3) Have GUI functionality. 
 
