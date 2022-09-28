@@ -10,6 +10,9 @@ ArticleScraper class is used to go to a url and scrape text from a webpage
 @author: Keith
 """
 #################################################################
+import requests
+from bs4 import BeautifulSoup
+
 class ArticleScraper:
     """ 
     Given a url to a web article, it creates an object with url, title, and article (text content) attributes
@@ -17,9 +20,6 @@ class ArticleScraper:
     def __init__(self, url):
         
         self.url = url
-        
-        import requests
-        from bs4 import BeautifulSoup
         
         # Package the request, send the request and catch the response: r
         r = requests.get(url)
